@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark {
+    --background: hsl(230, 17%, 14%);
+    --topBackground: hsl(232, 19%, 15%);
+    --cardBackground: hsl(228, 28%, 20%);
+    --textColor: hsl(228, 34%, 66%);
+    --whiteText: hsl(0, 0%, 100%);
+}
+
+.light {
+    --background: hsl(0, 0%, 100%);
+    --topBackground: hsl(225, 100%, 98%);
+    --cardBackground: hsl(227, 47%, 96%);
+    --textColor: hsl(228, 12%, 44%);
+    --whiteText: hsl(230, 17%, 14%);
+}
+
+.igTopBorder {
+    background: rgb(252, 196, 104);
+    background: linear-gradient(90deg, rgba(252, 196, 104, 1) 0%, rgba(223, 73, 150, 1) 100%);
+}
+
+.toggleBtn{
+    background-image: linear-gradient(to right,hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
